@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+echo "deb http://cn.archive.ubuntu.com/ubuntu/ bionic universe" >> /etc/apt/sources.list
 apt update -y
 apt install --no-install-recommends ubuntu-desktop -y
 apt install gnome-panel -y

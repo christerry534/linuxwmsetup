@@ -3,8 +3,8 @@ apt update && apt install -y
 apt install icewm -y
 apt install nano -y
 #apt install firefox -y
-apt install pcmandfm
-apt install nitrogen
+apt install pcmandfm -y
+apt install nitrogen -y
 apt install ubuntu-wallpapers-jammy -y
 apt install apt-transport-https curl -y
 curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg

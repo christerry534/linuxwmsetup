@@ -8,7 +8,8 @@ apt install gnome-settings-daemon -y
 apt install metacity -y
 apt install nautilus -y
 apt install gnome-terminal -y
-apt install gnome-power-manager
+apt install gnome-power-manager -y
+apt install gnome-tweak-tool -y
 apt install vnc4server -y
 echo ""
 echo "Complete"

@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update && apt install -y
+apt update && apt upgrade -y
 apt install icewm -y
 apt install nano -y
 #apt install firefox -y
@@ -13,6 +13,8 @@ apt update && apt install brave-browser -y
 apt install xterm -y
 apt install lxterminal -y
 apt install xinit -y
+apt install openvpn -y
+apt install network-manager-openvpn-gnome
 apt install network-manager-openvpn -y
 apt install gimp -y
 #apt install openvpn3 -y

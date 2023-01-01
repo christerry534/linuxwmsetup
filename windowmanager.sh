@@ -14,7 +14,7 @@ apt install xterm -y
 apt install lxterminal -y
 apt install xinit -y
 apt install openvpn -y
-apt install network-manager-openvpn-gnome
+apt install network-manager-openvpn-gnome -y
 apt install network-manager-openvpn -y
 apt install gimp -y
 #apt install openvpn3 -y

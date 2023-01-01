@@ -13,6 +13,7 @@ apt update && apt install brave-browser -y
 apt install xterm -y
 apt install lxterminal -y
 apt install xinit -y
+apt install network-manager-openvpn -y
 #apt install openvpn3 -y
 echo --------------------
 echo "Login Using startx"
